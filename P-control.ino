@@ -27,8 +27,8 @@
 #define _INTERVAL_SERIAL 100   // serial 출력 이벤트 주기
 
 // PID parameters
-#define _KP_m 0.3 //0.1
-#define _KP_M 0.4//0.4
+#define _KP_m 0.32 //0.1
+#define _KP_M 0.42//0.4
 
 // global variables //
 float dist_min, dist_max,  filtered_dist, alpha;
